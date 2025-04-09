@@ -2,13 +2,12 @@ package com.example.maketextuppercase
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
-import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.command.WriteCommandAction
 import com.intellij.openapi.editor.Editor
 import com.intellij.openapi.editor.SelectionModel
 import com.intellij.openapi.ui.Messages
 
-class MakeTextUppercaseAction : AnAction("Make Text Uppercase") {
+class MakeTextUpperCaseAction : AnAction("Make Text Uppercase") {
 
     override fun actionPerformed(event: AnActionEvent) {
         // Get the editor instance from the event

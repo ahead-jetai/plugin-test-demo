@@ -29,8 +29,8 @@
     </extensions>
     <actions>
         <action
-                id="com.example.maketextuppercase.MakeTextUppercaseAction"
-                class="com.example.maketextuppercase.MakeTextUppercaseAction"
+                id="com.example.maketextuppercase.MakeTextUpperCaseAction"
+                class="com.example.maketextuppercase.MakeTextUpperCaseAction"
                 text="Make Text Uppercase"
                 description="Converts selected text to uppercase">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
